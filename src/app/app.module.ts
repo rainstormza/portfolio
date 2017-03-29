@@ -15,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PacmanComponent } from './pacman/pacman.component';
 import { SupermanLoadingComponent } from './superman-loading/superman-loading.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { HomeComponent } from './home/home.component';
     PacmanComponent,
     SupermanLoadingComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
