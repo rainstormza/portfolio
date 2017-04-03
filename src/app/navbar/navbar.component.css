@@ -1,9 +1,10 @@
 .nav {
   background-color: #2E2E2E;
-  padding: 1rem 0px;
+  padding: 14px 0px;
 }
 
 .menu {
-  margin: 0px 40px 0px 40px;
+  margin: 0px 20px 0px 40px;
   color: white;
+  font-size: 14px;
 }
