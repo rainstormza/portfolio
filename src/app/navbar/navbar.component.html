@@ -2,7 +2,7 @@
   <div class="nav-left">
     <a class="nav-item">
       <!-- <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo"> -->
-      <!-- <i class="fa fa-twitter" aria-hidden="true" style="font-size: 30px;"></i> -->
+      <i class="fa fa-twitter is-hidden-tablet" aria-hidden="true" style="font-size: 20px;"></i>
     </a>
   </div>
 
@@ -14,10 +14,10 @@
       HOME
     </a>
     <a class="nav-item menu">
-      SERVICES
+      EXPERIENCE
     </a>
     <a class="nav-item menu">
-      PORTFOLIO
+      TECHNOLOGY
     </a>
     <a class="nav-item menu">
       ABOUT ME
@@ -30,7 +30,7 @@
 
   <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
   <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-  <span class="nav-toggle">
+  <span class="nav-toggle" (click)="toggle()">
     <span class="color-white"></span>
     <span class="color-white"></span>
     <span class="color-white"></span>
@@ -38,18 +38,15 @@
 
   <!-- This "nav-menu" is hidden on mobile -->
   <!-- Add the modifier "is-active" to display it on mobile -->
-  <div class="nav-right nav-menu is-active">
+  <div class="nav-right nav-menu" [ngClass]="{'is-active': toggleStatus}">
     <a class="nav-item is-hidden-tablet">
-      <!-- <sspanan class="icon">
-        <i class="fa fa-github"></i>
-      </sspanan> -->
       HOME
     </a>
     <a class="nav-item is-hidden-tablet">
-      SERVICES
+      EXPERIENCE
     </a>
     <a class="nav-item is-hidden-tablet">
-      PORTFOLIO
+      TECHNOLOGY
     </a>
     <a class="nav-item is-hidden-tablet">
       ABOUT ME
