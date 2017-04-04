@@ -1,6 +1,8 @@
 .nav {
   background-color: #2E2E2E;
   padding: 13.5px 0px;
+  top: 0;
+  z-index: 100;
   position: fixed;
   width: 100%;
 }
@@ -9,4 +11,16 @@
   margin: 0px 20px 0px 40px;
   color: white;
   font-size: 14px;
+}
+
+.menu:hover {
+  color: #797c79;
+}
+
+.color-white {
+  background-color: white !important;
+}
+
+.nav-toggle:hover {
+  background-color: #2E2E2E !important;
 }
