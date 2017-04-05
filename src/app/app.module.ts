@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 
 import { routing } from './app.routing';
 
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
+
 import { TypingCarouselComponent } from './shared/typing-carousel/typing-carousel.component';
 import { TypingCarouselDirective } from './shared/directive/typing-carousel.directive';
 import { MobileTestComponent } from './shared/mobile-test/mobile-test.component';
@@ -44,6 +46,7 @@ import { TechnologyComponent } from './technology/technology.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    Ng2PageScrollModule.forRoot(),
     routing
   ],
   providers: [],
