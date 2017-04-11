@@ -7,22 +7,23 @@
   </div>
 
   <div class="nav-center nav-menu is-hidden-mobile">
-    <a pageScroll href="#awesomePart" class="nav-item menu">
+    <!-- <a class="nav-item menu" pageScroll [pageScrollOffset]="0" [pageScrollDuration]="700" [pageScrollInterruptible]="false" [pageScrollEasing]="myEasing" href="#awesomePart1"> -->
+    <a class="nav-item menu" (click)="scrollTop()">
       <!-- <sspanan class="icon">
         <i class="fa fa-github"></i>
       </sspanan> -->
       HOME
     </a>
-    <a class="nav-item menu">
+    <a class="nav-item menu" (click)="scrollOther('#experience')">
       EXPERIENCE
     </a>
-    <a class="nav-item menu">
+    <a class="nav-item menu" (click)="scrollOther('#technology')">
       TECHNOLOGY
     </a>
-    <a class="nav-item menu">
+    <a class="nav-item menu" (click)="scrollOther('#aboutme')">
       ABOUT ME
     </a>
-    <a class="nav-item menu">
+    <a class="nav-item menu" (click)="scrollOther('#contact')">
       CONTACT
     </a>
 
