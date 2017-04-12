@@ -39,6 +39,8 @@ export class NavbarComponent implements OnInit {
     // window.scrollTo(0, 0);
     let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#home');
     this.pageScrollService.start(pageScrollInstance);
+    this.toggleStatus = !this.toggleStatus;
+
   }
 
   scrollOther(name: string) {
@@ -49,7 +51,7 @@ export class NavbarComponent implements OnInit {
           pageScrollOffset: 64,
           pageScrollInterruptible: false});
     this.pageScrollService.start(pageScrollInstance);
-
+    this.toggleStatus = !this.toggleStatus;
 
   }
 

@@ -40,19 +40,19 @@
   <!-- This "nav-menu" is hidden on mobile -->
   <!-- Add the modifier "is-active" to display it on mobile -->
   <div class="nav-right nav-menu" [ngClass]="{'is-active': toggleStatus}">
-    <a class="nav-item is-hidden-tablet">
+    <a class="nav-item is-hidden-tablet" (click)="scrollTop()">
       HOME
     </a>
-    <a class="nav-item is-hidden-tablet">
+    <a class="nav-item is-hidden-tablet" (click)="scrollOther('#experience')">
       EXPERIENCE
     </a>
-    <a class="nav-item is-hidden-tablet">
+    <a class="nav-item is-hidden-tablet" (click)="scrollOther('#technology')">
       TECHNOLOGY
     </a>
-    <a class="nav-item is-hidden-tablet">
+    <a class="nav-item is-hidden-tablet" (click)="scrollOther('#aboutme')">
       ABOUT ME
     </a>
-    <a class="nav-item is-hidden-tablet">
+    <a class="nav-item is-hidden-tablet" (click)="scrollOther('#contact')">
       CONTACT
     </a>
   </div>
