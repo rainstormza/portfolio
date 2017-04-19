@@ -31,7 +31,7 @@
 
   <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
   <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-  <span class="nav-toggle" (click)="toggle()">
+  <span class="nav-toggle" (click)="toggle()" [ngClass]="{'is-active': toggleStatus}">
     <span class="color-white"></span>
     <span class="color-white"></span>
     <span class="color-white"></span>

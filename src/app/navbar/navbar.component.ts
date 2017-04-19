@@ -29,8 +29,6 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
-
-
   toggle() {
     this.toggleStatus = !this.toggleStatus;
   }
@@ -40,7 +38,6 @@ export class NavbarComponent implements OnInit {
     let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#home');
     this.pageScrollService.start(pageScrollInstance);
     this.toggleStatus = !this.toggleStatus;
-
   }
 
   scrollOther(name: string) {
@@ -52,7 +49,6 @@ export class NavbarComponent implements OnInit {
           pageScrollInterruptible: false});
     this.pageScrollService.start(pageScrollInstance);
     this.toggleStatus = !this.toggleStatus;
-
   }
 
 
