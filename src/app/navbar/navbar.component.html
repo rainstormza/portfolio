@@ -12,19 +12,19 @@
       <!-- <sspanan class="icon">
         <i class="fa fa-github"></i>
       </sspanan> -->
-      HOME
+      <p [ngClass]="{'active-menu': menuState==''}">HOME</p>
     </a>
     <a class="nav-item menu" (click)="scrollOther('#experience')">
-      EXPERIENCE
+      <p [ngClass]="{'active-menu': menuState=='#experience'}">EXPERIENCE</p>
     </a>
     <a class="nav-item menu" (click)="scrollOther('#technology')">
-      TECHNOLOGY
+      <p [ngClass]="{'active-menu': menuState=='#technology'}">TECHNOLOGY</p>
     </a>
     <a class="nav-item menu" (click)="scrollOther('#aboutme')">
-      ABOUT ME
+      <p [ngClass]="{'active-menu': menuState=='#aboutme'}">ABOUT ME</p>
     </a>
     <a class="nav-item menu" (click)="scrollOther('#contact')">
-      CONTACT
+      <p [ngClass]="{'active-menu': menuState=='#contact'}">CONTACT</p>
     </a>
 
   </div>

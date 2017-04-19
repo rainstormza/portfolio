@@ -24,3 +24,8 @@
 .nav-toggle:hover {
   background-color: #2E2E2E !important;
 }
+
+.active-menu {
+  /*font-size: 18px;*/
+  border-bottom: 2px solid white;
+}

@@ -9,7 +9,8 @@ import { PageScrollInstance, PageScrollService, EasingLogic, PageScrollConfig } 
 })
 export class NavbarComponent implements OnInit {
 
-  toggleStatus = false;
+  toggleStatus: boolean;
+  menuState: string;
 
   constructor(@Inject(DOCUMENT) private document: any,
                      private pageScrollService: PageScrollService) {
@@ -27,6 +28,7 @@ export class NavbarComponent implements OnInit {
     }
 
   ngOnInit() {
+    this.toggleStatus = false;
   }
 
   toggle() {
@@ -38,6 +40,7 @@ export class NavbarComponent implements OnInit {
     let pageScrollInstance: PageScrollInstance = PageScrollInstance.simpleInstance(this.document, '#home');
     this.pageScrollService.start(pageScrollInstance);
     this.toggleStatus = !this.toggleStatus;
+    this.menuState = '';
   }
 
   scrollOther(name: string) {
@@ -49,6 +52,8 @@ export class NavbarComponent implements OnInit {
           pageScrollInterruptible: false});
     this.pageScrollService.start(pageScrollInstance);
     this.toggleStatus = !this.toggleStatus;
+
+    this.menuState = name;
   }
 
 
