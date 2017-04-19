@@ -8,23 +8,23 @@
 
   <div class="nav-center nav-menu is-hidden-mobile">
     <!-- <a class="nav-item menu" pageScroll [pageScrollOffset]="0" [pageScrollDuration]="700" [pageScrollInterruptible]="false" [pageScrollEasing]="myEasing" href="#awesomePart1"> -->
-    <a class="nav-item menu" (click)="scrollTop()">
+    <a class="nav-item menu" [ngClass]="{'active-menu': menuState==''}" (click)="scrollTop()">
       <!-- <sspanan class="icon">
         <i class="fa fa-github"></i>
       </sspanan> -->
-      <p [ngClass]="{'active-menu': menuState==''}">HOME</p>
+      <p >HOME</p>
     </a>
-    <a class="nav-item menu" (click)="scrollOther('#experience')">
-      <p [ngClass]="{'active-menu': menuState=='#experience'}">EXPERIENCE</p>
+    <a class="nav-item menu" [ngClass]="{'active-menu': menuState=='#experience'}" (click)="scrollOther('#experience')">
+      <p>EXPERIENCE</p>
     </a>
-    <a class="nav-item menu" (click)="scrollOther('#technology')">
-      <p [ngClass]="{'active-menu': menuState=='#technology'}">TECHNOLOGY</p>
+    <a class="nav-item menu" [ngClass]="{'active-menu': menuState=='#technology'}" (click)="scrollOther('#technology')">
+      <p>TECHNOLOGY</p>
     </a>
-    <a class="nav-item menu" (click)="scrollOther('#aboutme')">
-      <p [ngClass]="{'active-menu': menuState=='#aboutme'}">ABOUT ME</p>
+    <a class="nav-item menu" [ngClass]="{'active-menu': menuState=='#aboutme'}" (click)="scrollOther('#aboutme')">
+      <p>ABOUT ME</p>
     </a>
-    <a class="nav-item menu" (click)="scrollOther('#contact')">
-      <p [ngClass]="{'active-menu': menuState=='#contact'}">CONTACT</p>
+    <a class="nav-item menu" [ngClass]="{'active-menu': menuState=='#contact'}" (click)="scrollOther('#contact')">
+      <p>CONTACT</p>
     </a>
 
   </div>

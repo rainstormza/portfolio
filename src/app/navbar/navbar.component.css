@@ -11,6 +11,8 @@
   margin: 0px 20px 0px 40px;
   color: white;
   font-size: 14px;
+  border-bottom: 2px solid #2E2E2E;
+
 }
 
 .menu:hover {
