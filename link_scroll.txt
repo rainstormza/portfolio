@@ -5,3 +5,6 @@ https://ng2-ui.github.io/dist/#/scrollable
 
 https://github.com/JonnyBGod/ngx-scrollspy
 https://github.com/bergben/ng2-scrollimate
+
+
+https://github.com/JonnyBGod/ngx-scrollspy/issues/170#issuecomment-296048937
