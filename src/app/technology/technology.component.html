@@ -1,1 +1,7 @@
-<div class="image" [ngStyle]="{'background-image':'url(' + '/assets/img/subway.gif' + ')'}"></div>
+<div class="image" [ngStyle]="{'background-image':'url(' + '/assets/img/subway.gif' + ')'}">
+    <div [@visibilityChanged]="visibility" >
+      <p>Can you see me? I should fade in or out...</p>
+    </div>
+
+    <button (click)="fadeClick()">Fade</button>
+</div>
