@@ -9,9 +9,9 @@ import { trigger, state, animate, transition, style } from '@angular/animations'
     trigger('visibilityChanged', [
       state('shown' , style({ opacity: 1 })),
       state('hidden', style({ opacity: 0 })),
-      transition('* <=> *', animate('.3s'))
-      // transition('shown => hidden', animate('.3s')),
-      // transition('hidden => shown', animate('.3s'))      
+      // transition('* <=> *', animate('.3s'))
+      transition('shown => hidden', animate('.3s')),
+      transition('hidden => shown', animate('.3s'))
     ]),
     trigger('test1', [
       state('in' , style({ opacity: 1 })),
@@ -50,5 +50,13 @@ export class TechnologyComponent implements OnInit, OnChanges {
     this.visibility = this.isVisible ? 'shown' : 'hidden';
     this.check = !this.check;
   }
+
+  onMouse() {
+    this.isVisible = !this.isVisible;
+    this.visibility = this.isVisible ? 'shown' : 'hidden';
+    console.log('onMouse');
+    // this.visibility = 'hidden';
+  }
+
 
 }
