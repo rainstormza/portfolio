@@ -60,8 +60,41 @@
   font-size:5em;
 }
 
-.test:hover {
+/*.test:hover {
   background-color: red;
   transition: background-color 0.3s ease-in;
   transform: translate(100%, 0%);
+}*/
+
+.example-title {
+  text-align: center;
+  /*margin-bottom: 60px;*/
+  padding: 3em 0;
+  /*border-bottom: 1px solid #E4EAEC;*/
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.section {
+  padding: 1rem 0.5rem;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }

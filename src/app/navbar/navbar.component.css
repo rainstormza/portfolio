@@ -19,6 +19,19 @@
   color: #797c79;
 }
 
+.menu-mobile {
+  /*margin: 0px 20px 0px 40px;*/
+  color: white;
+  /*font-size: 14px;*/
+  /*border-bottom: 2px solid #2E2E2E;*/
+
+}
+
+.menu-mobile:hover {
+  color: #797c79;
+}
+
+
 .color-white {
   background-color: white !important;
 }
@@ -30,4 +43,22 @@
 .active-menu {
   /*font-size: 18px;*/
   /*border-bottom: 2px solid white;*/
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }

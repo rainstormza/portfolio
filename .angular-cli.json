@@ -22,7 +22,9 @@
         "../node_modules/bulma/css/bulma.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/scrollreveal/dist/scrollreveal.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

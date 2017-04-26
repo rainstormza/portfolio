@@ -1,6 +1,23 @@
-<div class="image" [ngStyle]="{'background-image':'url(' + '/assets/img/subway.gif' + ')'}">
+<!-- <div class="image" [ngStyle]="{'background-image':'url(' + '/assets/img/subway.gif' + ')'}"> -->
+<div class="image">
+  <div class="item" ngsReveal>..555</div>
 
-    <div class="test" [@visibilityChanged]="visibility" >
+  <div class="itemset" ngsRevealSet [ngsSelector]="'.item'">
+    <div class="item item1">Item 1</div>
+    <div class="item item2">Item 2</div>
+    <div class="item item3">Item 3</div>
+    <div class="item item4">Item 4</div>
+    <div class="item5">Item 5 (will not be animated)</div>
+</div>
+
+<div class="itemset" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.item'">
+     <div class="item item1">Item 1</div>
+     <div class="item item2">Item 2</div>
+     <div class="item item3">Item 3</div>
+     <div class="item item4">Item 4</div>
+     <div class="item5">Item 5 (will not be animated)</div>
+ </div>
+    <!-- <div class="test" [@visibilityChanged]="visibility" >
       <p>Can you see me? I should fade in or out...</p>
     </div>
 
@@ -12,7 +29,10 @@
       <p style="font-size:30px">Tettttttttttt</p>
     </div>
 
-    <button (click)="fadeClick()">Fade</button>
+    <button (click)="fadeClick()">Fade</button> -->
+    <div class=" is-12 example-title">
+        <h2 class="hvr-grow">Technology</h2>
+    </div>
 
     <div class="section main">
       <div class="container">
