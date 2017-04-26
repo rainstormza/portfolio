@@ -1,12 +1,12 @@
 .type-carousel {
   /*padding: 20% 0% 0% 50%;*/
   margin-left: 45%;
-  margin-top: 20%;
+  margin-top: 15%;
   position: absolute;
 }
 
 .position {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: white;
   display: inline-block; /* Enable widths */
 }

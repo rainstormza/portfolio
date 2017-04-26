@@ -11,7 +11,8 @@ export class TypingCarouselComponent implements OnInit {
   // https://www.npmjs.com/package/ng2-typing-carousel
 
   constructor() {
-  	this.carousel = ['full-stack developer.','ui/ux designer.', 'blogger.'];
+    // this.carousel = ['full-stack developer.','ui/ux designer.', 'blogger.'];
+  	this.carousel = ['web developer.', 'front-end developer.', 'back-end developer.'];
   }
 
   ngOnInit() {

@@ -28,7 +28,7 @@ export class TypingCarouselDirective {
     tick(value:string, toRotate:Array<string>, period:number) {
         let i = this.loopNum % toRotate.length,
             fullTxt = toRotate[i],
-            delta = 300 - Math.random() * 100;
+            delta = 200 - Math.random() * 100;
 
         value = this.isDeleting ?
             fullTxt.substring(0, value.length - 1) :

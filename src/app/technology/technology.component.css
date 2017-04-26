@@ -1,4 +1,4 @@
-.image {
+.image-bg {
   /*height: 100vh;*/
   min-height: 100vh;
   max-height: auto;
@@ -17,7 +17,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .image {
+  .image-bg {
     /*height: 100%;*/
     min-height: 100vh;
     max-height: auto;
@@ -78,23 +78,19 @@ h2 {
 }
 
 .section {
-  padding: 1rem 0.5rem;
+  /*padding: 1rem 0.5rem;*/
 }
 
-/* Grow */
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
+.panel {
+  border-style: solid;
+  /*text-align: center;*/
+  /*min-width: 300px;
+  min-height: 300px;*/
+  /*height: 300px;
+  width: 300px;*/
 }
 
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.1);
+.card {
+  /*width: 300px;
+  height: 300px;*/
 }

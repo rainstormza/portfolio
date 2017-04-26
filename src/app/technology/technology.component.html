@@ -1,22 +1,6 @@
 <!-- <div class="image" [ngStyle]="{'background-image':'url(' + '/assets/img/subway.gif' + ')'}"> -->
-<div class="image">
-  <div class="item" ngsReveal>..555</div>
+<div class="image-bg">
 
-  <div class="itemset" ngsRevealSet [ngsSelector]="'.item'">
-    <div class="item item1">Item 1</div>
-    <div class="item item2">Item 2</div>
-    <div class="item item3">Item 3</div>
-    <div class="item item4">Item 4</div>
-    <div class="item5">Item 5 (will not be animated)</div>
-</div>
-
-<div class="itemset" [ngsRevealSet]="{ reset:true}" [ngsInterval]="50" [ngsSelector]="'.item'">
-     <div class="item item1">Item 1</div>
-     <div class="item item2">Item 2</div>
-     <div class="item item3">Item 3</div>
-     <div class="item item4">Item 4</div>
-     <div class="item5">Item 5 (will not be animated)</div>
- </div>
     <!-- <div class="test" [@visibilityChanged]="visibility" >
       <p>Can you see me? I should fade in or out...</p>
     </div>
@@ -34,11 +18,45 @@
         <h2 class="hvr-grow">Technology</h2>
     </div>
 
+    <div class="columns">
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-square">
+              <img src="http://bulma.io/images/placeholders/300x300.png" alt="Image">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-square">
+              <img src="http://bulma.io/images/placeholders/300x300.png" alt="Image">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-square">
+              <img src="http://bulma.io/images/placeholders/300x300.png" alt="Image">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
     <div class="section main">
       <div class="container">
-        <div class="columns">
+        <div class="columns ">
 
           <div class="column is-4">
+
             <div class="panel">
               <div class="section">
                   <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
@@ -48,6 +66,7 @@
                   <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
               </div>
             </div>
+
           </div>
 
           <div class="column is-4">

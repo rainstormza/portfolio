@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +9,15 @@ export class AppComponent implements OnInit {
   // title = 'app works!';
   // check_loading = true;
 
-  // @HostListener('scroll', ['$event']) private onScroll($event:Event):void {
-  //       console.log($event.srcElement.scrollLeft, $event.srcElement.scrollTop);
-  // };
+  constructor(private el: ElementRef) {}
+
+  @HostListener('window:scroll', ['$event'])
+    onScroll(event) {
+      // console.log(event.currentTarget.pageYOffset);
+    }
 
   ngOnInit() {
+
     // setTimeout(() => {
     //   this.check_loading = false;
     // }, 1500);

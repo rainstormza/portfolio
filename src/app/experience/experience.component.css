@@ -33,6 +33,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
 }
 
 h2 {
@@ -46,6 +47,8 @@ h3 {
 
 .columns {
   margin-top: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 .example-header {
@@ -315,5 +318,5 @@ h3 {
 }
 
 .example-centered {
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
