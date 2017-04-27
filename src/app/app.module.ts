@@ -10,7 +10,6 @@ import { routing } from './app.routing';
 
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { NgsRevealModule } from 'ng-scrollreveal'; //https://github.com/tinesoft/ng-scrollreveal
-import { NguiScrollableModule } from '@ngui/scrollable';
 
 import { TypingCarouselComponent } from './shared/typing-carousel/typing-carousel.component';
 import { TypingCarouselDirective } from './shared/directive/typing-carousel.directive';
@@ -52,7 +51,6 @@ import { TechnologyComponent } from './technology/technology.component';
     BrowserAnimationsModule,
     Ng2PageScrollModule.forRoot(),
     NgsRevealModule.forRoot(),
-    NguiScrollableModule,
     routing
   ],
   providers: [],
