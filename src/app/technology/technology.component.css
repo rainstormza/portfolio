@@ -95,13 +95,6 @@ h2 {
   height: 300px;*/
 }
 
-.arm-pic {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-
-}
-
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -129,4 +122,9 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.img-size-max {
+  max-width: 200px;
+  max-height: 200px;
 }

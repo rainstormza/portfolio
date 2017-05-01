@@ -47,3 +47,11 @@ h2 {
 a {
   color: grey;
 }
+
+
+.arm-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+
+}
