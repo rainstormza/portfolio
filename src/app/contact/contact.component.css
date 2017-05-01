@@ -4,7 +4,7 @@
   max-height: auto;
   margin: 0px 0px;
   background-color: white;
-  opacity: 0.85;
+  /*opacity: 0.85;*/
   /*background-size: cover;
   background-attachment: fixed;
   background-position: center center;*/
@@ -22,7 +22,7 @@
     min-height: 100vh;
     max-height: auto;
     margin: 0px 0px;
-    opacity: 0.85;
+    /*opacity: 0.85;*/
     /*background-size: cover;
     background-attachment: fixed;
     background-position: center center;*/
@@ -33,4 +33,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+
+h2 {
+  font-size: 30px;
+}
+
+.example-title {
+    text-align: center;
+    padding: 3em 0;
 }
