@@ -6,7 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 
-import { routing } from './app.routing';
+import { AppRoutingModule } from './app.routing.module';
 
 import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { NgsRevealModule } from 'ng-scrollreveal'; //https://github.com/tinesoft/ng-scrollreveal
@@ -48,10 +48,10 @@ import { TechnologyComponent } from './technology/technology.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     Ng2PageScrollModule.forRoot(),
     NgsRevealModule.forRoot(),
-    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
