@@ -107,10 +107,10 @@ h2 {
   transition: .5s ease;
 }
 
-.card:hover .overlay {
+/*.card:hover .overlay {
   bottom: 0;
   height: 100%;
-}
+}*/
 
 .text {
   white-space: nowrap;
@@ -127,4 +127,12 @@ h2 {
 .img-size-max {
   max-width: 200px;
   max-height: 200px;
+  margin: 0% auto 0% auto;
+}
+
+.progress-custom {
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto auto auto auto;
+  /*position: relative;*/
 }

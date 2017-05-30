@@ -1,7 +1,7 @@
 <!-- <div class="image" [ngStyle]="{'background-image':'url(' + '/assets/img/subway.gif' + ')'}"> -->
 <div class="image-bg">
 
-<!-- <div class="test" [@visibilityChanged]="visibility" >
+  <!-- <div class="test" [@visibilityChanged]="visibility" >
       <p>Can you see me? I should fade in or out...</p>
     </div>
 
@@ -14,140 +14,161 @@
     </div>
 
     <button (click)="fadeClick()">Fade</button> -->
-<div class=" is-12 example-title">
-  <h2 class="hvr-grow">Technology</h2>
-</div>
+  <div class=" is-12 example-title">
+    <h2 class="hvr-grow">Technology</h2>
+  </div>
 
-<div class="section main">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-4">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-square">
-              <img src="/assets/img/technology/angular.png" alt="Image" class="img-size-max">
-            </figure>
-          </div>
-          <div class="overlay">
-            <div class="text">Hello World</div>
-          </div>
-        </div>
-      </div>
-      <div class="column is-4">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-square">
-              <img src="/assets/img/technology/typescript.png" alt="Image" class="img-size-max">
-            </figure>
-          </div>
-          <div class="overlay">
-            <div class="text">Hello World 2</div>
+  <div class="section main">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-image">
+              <br>
+              <figure class="image">
+                <img src="/assets/img/technology/angular.png" alt="Image" class="img-size-max">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <p class="has-text-centered">Angular</p>
+                <progress class="progress progress-custom" value="90" max="100">90%</progress>
+              </div>
+            </div>
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="column is-4">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-square">
-              <img src="/assets/img/technology/css.png" alt="Image" class="img-size-max">
-            </figure>
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-image">
+              <br>
+              <figure class="image ">
+                <img src="/assets/img/technology/typescript.png" alt="Image" class="img-size-max">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <p class="has-text-centered">Typescript</p>
+                <progress class="progress progress-custom" value="80" max="100">80%</progress>
+              </div>
+            </div>
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
           </div>
-          <div class="overlay">
-            <div class="text">Hello World 3</div>
+        </div>
+        <div class="column is-4">
+          <div class="card">
+            <div class="card-image">
+              <br>
+              <figure class="image ">
+                <img src="/assets/img/technology/css.png" alt="Image" class="img-size-max">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="content">
+                <p class="has-text-centered">CSS</p>
+                <progress class="progress progress-custom" value="60" max="100">60%</progress>
+              </div>
+            </div>
+            <div class="overlay">
+              <div class="text">Hello World</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- https://www.w3schools.com/howto/howto_css_image_overlay.asp -->
+  <!-- https://www.w3schools.com/howto/howto_css_image_overlay.asp -->
 
 
-<div class="section main">
-  <div class="container">
-    <div class="columns ">
+  <!-- <div class="section main">
+    <div class="container">
+      <div class="columns ">
 
-      <div class="column is-4">
+        <div class="column is-4">
 
-        <div class="panel">
-          <div class="section">
-            <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-            <br>
-            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+          <div class="panel">
+            <div class="section">
+              <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+              <br>
+              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="column is-4">
+          <div class="panel">
+            <div class="section">
+              <p class="has-text-centered"><i class="fa fa-bar-chart icon-block"></i></p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+              <br>
+              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="panel">
+            <div class="section">
+              <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+              <br>
+              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+            </div>
           </div>
         </div>
 
       </div>
 
-      <div class="column is-4">
-        <div class="panel">
-          <div class="section">
-            <p class="has-text-centered"><i class="fa fa-bar-chart icon-block"></i></p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-            <br>
-            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+      <div class="columns">
+
+        <div class="column is-4">
+          <div class="panel">
+            <div class="section">
+              <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+              <br>
+              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="column is-4">
-        <div class="panel">
-          <div class="section">
-            <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-            <br>
-            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+        <div class="column is-4">
+          <div class="panel">
+            <div class="section">
+              <p class="has-text-centered"><i class="fa fa-bar-chart icon-block"></i></p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+              <br>
+              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+            </div>
           </div>
         </div>
-      </div>
 
+        <div class="column is-4">
+          <div class="panel">
+            <div class="section">
+              <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
+              <br>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+              <br>
+              <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-
-    <div class="columns">
-
-      <div class="column is-4">
-        <div class="panel">
-          <div class="section">
-            <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-            <br>
-            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="panel">
-          <div class="section">
-            <p class="has-text-centered"><i class="fa fa-bar-chart icon-block"></i></p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-            <br>
-            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="panel">
-          <div class="section">
-            <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-            <br>
-            <p class="has-text-centered"><a class="button is-info is-outlined">Action</a></p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
+  </div> -->
 
 </div>
