@@ -21,7 +21,7 @@
   <div class="section main">
     <div class="container">
 
-      <div *ngFor="let row of skills" class="columns">
+      <div *ngFor="let row of skills" class="columns" [ngsReveal]="{reset: false, origin: 'bottom', opacity: 1, mobile: true, viewFactor: 0.2}">
         <ng-container *ngFor="let item of row">
           <div class="column is-4">
             <div class="card">

@@ -50,18 +50,18 @@ export class TechnologyComponent implements OnInit, OnChanges {
       },
       {
         name: 'Javascript',
-        img: '/assets/img/technology/js.png',
+        img: '/assets/img/technology/js2.svg',
         percent: '85'
       }
     ],
     [
       {
-        name: 'HTML',
+        name: 'HTML5',
         img: '/assets/img/technology/html.png',
         percent: '90'
       },
       {
-        name: 'CSS',
+        name: 'CSS3',
         img: '/assets/img/technology/css.png',
         percent: '70'
       },
@@ -71,23 +71,49 @@ export class TechnologyComponent implements OnInit, OnChanges {
         percent: '70'
       }
     ],
-    // [
-    //   {
-    //     id: 3.1
-    //   },
-    //   {
-    //     id: 3.2
-    //   },
-    //   {
-    //     id: 3.3
-    //   }
-    // ]
+    [
+      {
+        name: 'RxJS',
+        img: '/assets/img/technology/rxjs.png',
+        percent: '70'
+      },
+      {
+        name: 'Sourcetree',
+        img: '/assets/img/technology/sourcetree.png',
+        percent: '80'
+      },
+      {
+        name: 'Git',
+        img: '/assets/img/technology/git.png',
+        percent: '70'
+      },
+
+    ],
+    [
+      {
+        name: 'MS SQL',
+        img: '/assets/img/technology/mssql.png',
+        percent: '70'
+      },
+      {
+        name: 'MongoDB',
+        img: '/assets/img/technology/mongo.png',
+        percent: '65'
+      },
+      {
+        name: 'React (learning in progress)',
+        img: '/assets/img/technology/react.png',
+        percent: '30',
+        status: 'Learning'
+      },
+
+    ],
   ];
 
   constructor() { }
 
   ngOnInit() {
-    console.log(this.skills);
+    // console.log(this.skills);
   }
 
   ngOnChanges() {
