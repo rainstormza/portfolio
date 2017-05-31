@@ -36,9 +36,58 @@ export class TechnologyComponent implements OnInit, OnChanges {
   visibility = 'shown';
   check = true;
 
+  skills = [
+    [
+      {
+        name: 'Angular',
+        img: '/assets/img/technology/angular.png',
+        percent: '90'
+      },
+      {
+        name: 'Typescript',
+        img: '/assets/img/technology/typescript.png',
+        percent: '80'
+      },
+      {
+        name: 'Javascript',
+        img: '/assets/img/technology/js.png',
+        percent: '85'
+      }
+    ],
+    [
+      {
+        name: 'HTML',
+        img: '/assets/img/technology/html.png',
+        percent: '90'
+      },
+      {
+        name: 'CSS',
+        img: '/assets/img/technology/css.png',
+        percent: '70'
+      },
+      {
+        name: 'NodeJS',
+        img: '/assets/img/technology/nodejs.png',
+        percent: '70'
+      }
+    ],
+    // [
+    //   {
+    //     id: 3.1
+    //   },
+    //   {
+    //     id: 3.2
+    //   },
+    //   {
+    //     id: 3.3
+    //   }
+    // ]
+  ];
+
   constructor() { }
 
   ngOnInit() {
+    console.log(this.skills);
   }
 
   ngOnChanges() {

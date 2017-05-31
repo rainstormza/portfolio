@@ -12,7 +12,7 @@ export class TypingCarouselComponent implements OnInit {
 
   constructor() {
     // this.carousel = ['full-stack developer.','ui/ux designer.', 'blogger.'];
-  	this.carousel = ['web developer.', 'front-end developer.', 'back-end developer.'];
+  	this.carousel = ['web developer.', 'front-end developer.'];
   }
 
   ngOnInit() {
