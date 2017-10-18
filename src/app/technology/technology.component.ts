@@ -103,7 +103,7 @@ export class TechnologyComponent implements OnInit, OnChanges {
       {
         name: 'React (learning in progress)',
         img: '/assets/img/technology/react.png',
-        percent: '30',
+        percent: '50',
         status: 'Learning'
       },
 
